@@ -1,0 +1,93 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+
+    margin: 0;
+    font-family: sans-serif ;
+    background-color: #ded6ff;
+}
+.social-bar{
+    position: fixed;
+    right: 0 ;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+.icon{
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5%;
+}
+.icon-facebook{
+    background: #2E406E;
+
+}
+.icon-instagram{
+    background:#3F60A5 ;
+}
+.icon-whatsapp{
+    background: #3aa500;
+}
+.icon:last-child{
+    border-radius: 0 0 0 1rem;
+}
+
+#title{
+    color: blueviolet; 
+    font-size: 1.6em;
+    text-align: center;
+    
+}
+
+section{
+    margin: 3%;
+}
+
+hr{
+ margin: 0;
+ padding: 0.2em;
+ background-color: black;
+ border: none;
+}
+
+header {
+    
+    padding: 4% 20%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  #ded6ff;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 90px;
+}
+
+a{
+    margin: 15px; 
+    color: black;
+    font-size: 1.1em;
+}
+img{
+    border-radius: 190px;
+    box-shadow: 3px 3px 10px rgb(0 0 0.8);
+    margin: 3px 20px;
+    padding: 0;
+    width: 30%;
+    max-width: 30%;
+    min-width: 10%;
+
+}
+
+.titulos{
+    color: rgb(23, 6, 39);;
+    margin-left: 1px ;  
+    width: 40%;
+}
